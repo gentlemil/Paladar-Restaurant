@@ -5,7 +5,7 @@ This is my very, very first WEB Project which I was making to practise my Html, 
 ## Getting Started
 
 
-### Prerequisiteshttps://github.com/gentlemil/Paladar-Restaurant/projects
+### Prerequisites
 
 All you need is a text-editor (e.g. Visual Studio Code) and a browser (e.g. Chrome)
 
