@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>PROJEKT</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#00a300">
+    <meta name="msapplication-config" content="/assets/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700&display=swap&subset=latin-ext"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700&display=swap&subset=latin-ext"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/grid.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+
+    <!--  -->
+</head>
+
+<body>
+
+    <!-- ---- NAWIGATION ---- -->
+
+    <section id='navigation'>
+        <div class="container">
+            <div class="logo">
+                <a href="#header"><img src="assets/img/logo.jpg" alt="logo"></a>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#header">HOME</span></a></li>
+                    <li><a href="#our-special">ABOUT</a></li>
+                    <li><a href="#menu">MENU</a></li>
+                    <li><a href="#contact-form">KONTAKT</a></li>
+                </ul>
+            </nav>
+            <div class="icons">
+                <ul>
+                    <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+            </div>
+
+            <!-- icona hamburgera (mobilka) -->
+            <div class="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+
+
+    <section id="header">
+        <div class="container">
+            <h4>Witamy w Paladar Restaurant</h4>
+            <h1>Najsmaczniejsze Jedzenie</h1>
+            <p class="description">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam hic facere libero officia at a accusamus
+                ea, cupiditate voluptas temporibus iure doloribus eius veniam aspernatur incidunt consectetur, minima
+                pariatur! Quaerat!
+            </p>
+            <ul class="buttons">
+
+                <li><a data-fancybox data-src="#menu-blackboard" href="javascript:;" class="btn">Menu</a></li>
+
+                <li><a href="#" class="btn white-border">O nas</a></li>
+            </ul>
+        </div>
+        <!--  -->
+        <div style="display: none;" id="menu-blackboard">
+            <h2>Hello</h2>
+            <p>You are awesome.</p>
+        </div>
+        <!--  -->
+
+        <span class="mouse">
+            <span class="dot"></span>
+        </span>
+    </section>
+
+    <section id="our-special">
+        <div class="container">
+            <div class="global-header">
+                <h4>Odkrywaj</h4>
+                <h2>Nasze Specjalności</h2>
+            </div>
+
+            <div class="boxes">
+                <!-- !! -->
+                <div class="box" data-aos="fade-left">
+                    <div class="background">
+                        <div class="icon"><i class="fas fa-carrot"></i></div>
+                        <div class="title">Sałatki</div>
+                        <div class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
+                            deserunt
+                            ratione repudiandae? Possimus exercitationem ipsam maxime dolores atque non provident
+                            nesciunt
+                            quos? Nisi placeat, assumenda natus ea tempora quod tempore?</div>
+                    </div>
+                </div>
+                <div class="box" data-aos="flip-up" data-aos-delay="250">
+                    <div class="background">
+                        <div class="icon"><i class="fas fa-pizza-slice"></i></div>
+                        <div class="title">Pizza</div>
+                        <div class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
+                            deserunt
+                            ratione repudiandae? Possimus exercitationem ipsam maxime dolores atque non provident
+                            nesciunt
+                            quos? Nisi placeat, assumenda natus ea tempora quod tempore?</div>
+                    </div>
+                </div>
+                <div class="box" data-aos="fade-right" data-aos-delay="500">
+                    <div class="background">
+                        <div class="icon"><i class="fas fa-hamburger"></i></div>
+                        <div class="title">Burgery</div>
+                        <div class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
+                            deserunt
+                            ratione repudiandae? Possimus exercitationem ipsam maxime dolores atque non provident
+                            nesciunt
+                            quos? Nisi placeat, assumenda natus ea tempora quod tempore?</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEKCJA TRZECIA -->
+    <section id="our-history">
+        <div class="left">
+            <img src="assets/img/our-history.jpg" alt=".">
+        </div>
+        <div class="right">
+            <h2>Nasza Historia</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam dignissimos, qui eos beatae iusto adipisci
+                aliquid laborum nobis ullam consequuntur dolorum harum mollitia, sunt asperiores deleniti non veniam
+                fugit dicta.</p>
+            <a class="btn" data-fancybox href="https://www.youtube.com/watch?v=4C1WUjvRQeI">Zobacz Nasza Historie</a>
+
+        </div>
+    </section>
+
+
+    <!-- SEKCJA CZWARTA -->
+
+    <section id="menu">
+        <div class="container">
+            <div class="global-header">
+                <h4>Odkrywaj</h4>
+                <h2>Nasze Menu</h2>
+            </div>
+        </div>
+        <div class="courses">
+            <div class="course-list">
+                <h4>Main Course</h4>
+                <ul>
+                    <li>
+                        <p class="course-item">
+                            <span>Chicken Breast</span>
+                            <span>15$</span>
+                        </p>
+                        <p>Piers, ziemniaczki, zestaw surowek</p>
+                    </li>
+                    <li>
+                        <p class="course-item">
+                            <span>Salmon Steak</span>
+                            <span>15$</span>
+                        </p>
+                        <p>Piers, ziemniaczki, zestaw surowek</p>
+                    </li>
+                    <li>
+                        <p class="course-item">
+                            <span>Chicken Crispy</span>
+                            <span>15$</span>
+                        </p>
+                        <p>Piers, ziemniaczki, zestaw surowek</p>
+                    </li>
+                    <li>
+                        <p class="course-item">
+                            <span>Roasted Steak Roulade</span>
+                            <span>15$</span>
+                        </p>
+                        <p>Piers, ziemniaczki, zestaw surowek</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="course-list">
+                <h4>Specialities</h4>
+                <ul>
+                    <li>
+                        <p class="course-item">
+                            <span>Alder Grilled Seafood Paella</span>
+                            <span>15$</span>
+                        </p>
+                        <p>Piers, ziemniaczki, zestaw surowek</p>
+                    </li>
+                    <li>
+                        <p class="course-item">
+                            <span>Cordon Bleu</span>
+                            <span>15$</span>
+                        </p>
+                        <p>Piers, ziemniaczki, zestaw surowek</p>
+                    </li>
+                    <li>
+                        <p class="course-item">
+                            <span>Smoked Paprika Hummus</span>
+                            <span>15$</span>
+                        </p>
+                        <p>Piers, ziemniaczki, zestaw surowek</p>
+                    </li>
+                    <li>
+                        <p class="course-item">
+                            <span>Creamy Smoked Salmon</span>
+                            <span>15$</span>
+                        </p>
+                        <p>Piers, ziemniaczki, zestaw surowek</p>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="course-list">
+                <h4>Desserts</h4>
+                <ul>
+                    <li>
+                        <p class="course-item">
+                            <span>Tradicional Pancakes</span>
+                            <span>15$</span>
+                        </p>
+                        <p>Piers, ziemniaczki, zestaw surowek</p>
+                    </li>
+                    <li>
+                        <p class="course-item">
+                            <span>American Brunch</span>
+                            <span>15$</span>
+                        </p>
+                        <p>Piers, ziemniaczki, zestaw surowek</p>
+                    </li>
+                    <li>
+                        <p class="course-item">
+                            <span>Cannoli with cream cheese</span>
+                            <span>15$</span>
+                        </p>
+                        <p>Piers, ziemniaczki, zestaw surowek</p>
+                    </li>
+                    <li>
+                        <p class="course-item">
+                            <span>Chocolate Cherry Cake</span>
+                            <span>15$</span>
+                        </p>
+                        <p>Piers, ziemniaczki, zestaw surowek</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEKCJA PIATA - FORMULARZE -->
+
+    <section id="contact-form">
+        <div class="container">
+            <div class="global-header">
+                <h4>Odkrywaj</h4>
+                <h2>Napisz do NAS!</h2>
+            </div>
+        </div>
+        <form method="GET" action="">
+            <div class="row">
+                <label for="type-name">Podaj imię:</label>
+                <input id="type-name" required type="text" name="name" value="" placeholder="Wpisz swoje imię">
+            </div>
+            <div class="row">
+                <label for="type-email">Podaj e-mail:</label>
+                <input id="type-email" type="email" name="email" value="" placeholder="Wpisz adres email">
+            </div>
+            <div class="row">
+                <label for="type-password">Podaj hasło:</label>
+                <input id="type-password" type="password" name="password" value="" placeholder="Podaj hasło">
+            </div>
+            <div class="row">
+                <label for="choose-country">Wybierz miasto:</label>
+                <select id="choose-country" name="country">
+                    <option selected value="">Zaznacz Kraj</option>
+                    <option value="pl">Polska</option>
+                    <option value="de">Niemcy</option>
+                    <option value="cz">Czechy</option>
+                    <option value="sk">Słowacja</option>
+                </select>
+            </div>
+
+            <div class="row">
+                <label for="type-message">Wpisz wiadomość</label>
+                <textarea id="type-message" name="message"></textarea>
+            </div>
+
+            <!-- wersja I -->
+            <div class="row">
+                <!-- <p> -> Wybierz Plec i opcje wyboru beda w dwoch osobnych liniach -->
+                <!-- <span> wszysttko bedzie ladnie w jednej lini  -->
+                <span class="info">Wybierz płeć</span>
+
+                <label>
+                    <input type="radio" name="sex" value="0">
+                    Mężczyzna
+                </label>
+                <label>
+                    <input type="radio" name="sex" value="1">
+                    Kobieta
+                </label>
+                <!-- wersja II -->
+                <div class="row">
+                    <span class="info">Wybierz płeć</span>
+                    <label>
+                        <input type="radio" name="sex" value="0">
+                        Mężczyzna
+                    </label>
+
+                    <input id="choose-woman" type="radio" name="sex" value="1">
+                    <label for="choose-woman">Kobieta</label>
+                </div>
+
+                <div class="row">
+                    <p class="info">Wybierz pasje</p>
+                    <label>
+                        <input type="checkbox" name="passion" value="0">
+                        Poker
+                    </label>
+                    <label>
+                        <input type="checkbox" name="passion" value="1">
+                        Zapasy
+                    </label>
+                    <label>
+                        <input type="checkbox" name="passion" value="2">
+                        Piłka rzucanka
+                    </label>
+                </div>
+
+
+                <div class="row">
+                    <button type="submit">Wyślij wiadomość</button>
+                </div>
+        </form>
+        </div>
+    </section>
+
+    <section id="breadcrumb">
+        <div class="container">
+            <ul>
+                <li><a href="#">Strona Główna</a></li>
+                <li><a href="#">Motoryzacja</a></li>
+                <li><a href="#">Opony</a></li>
+                <li><a href="#">Nowe opony do żuka</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="instagram">
+
+    </section>
+
+
+
+    <!--  -->
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="assets/js/axios.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
